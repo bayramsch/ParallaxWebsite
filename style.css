@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.field2__image {
+    width: 400px;
+}
+
+.field1, .field2, .field3, .field4, .field5 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.field1 {
+    background-image: url(./img/bg.jpg);
+    height: 732px ;
+    min-height: 100%;
+    
+}
+
+.field1__header {
+    color: white;
+    background-color: #000000;
+    padding: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    outline:6px inset purple;
+    outline-offset: 10px;
+    letter-spacing: 8px;
+    font-size: 48px;
+}
+
+.full-stack, .AWS, .data, .reason {
+    padding: 50px 70px;
+    background-color: #F1F1F1;
+    
+}
+
+    
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+.AWS__head, .reason__head {
+    color: white;
+}
+
+.field2 {
+    background-image: url(./img/bg1.jpg);
+    height: 732px ;
+    min-height: 100%;
+
+}
+.field2__image {
+    width: 280px;
+    height: 61px;
+}
+
+.field3 {
+    background-image: url(./img/bg2.jpg);
+    height: 732px ;
+    min-height: 100%;
+}
+
+.field4 {
+    background-image: url(./img/bg3.jpg);
+    height: 732px ;
+    min-height: 100%;
+}
+
+.field5 {
+    background-image: url(./img/bg4.jpg);
+    height: 732px ;
+    min-height: 100%;
+}
+
+.field3__header, .field4__header, .field5__header {
+    font-size: 48px;
+    background-color: #000000;
+    color: white;
+    padding: 32px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    outline:6px inset purple;
+    outline-offset: 5px;
+    letter-spacing: 8px;
+    
+
+}
+
+.field5__header {
+    color: white;
+    background-color: #000000;
+    padding: 32px;
+    border-bottom-right-radius: 32px;
+    border-top-left-radius: 32px;
+    outline:6px inset purple;
+    outline-offset: 10px;
+    letter-spacing: 8px;
+}
+.AWS, .reason {
+    background-color:#282E34 ;
+    color: white;
+}
+ 
+.AWS__parag, .reason__parag, .full-stack__parag, .data__parag {
+    text-align: center;
+    line-height: 25px;
+    font-size: px;
+    font-family:'Lato', sans-serif;
+    color: #666;
+
+}
+.AWS__parag, .reason__parag {
+    color: white;
+}
